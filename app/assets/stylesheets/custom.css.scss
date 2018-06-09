@@ -1,3 +1,48 @@
+$navbar-default-bg: #122e59;
+
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.jumbotron{
+	background-image: asset-url('gg.jpg');
+	background-size: cover;
+	
+}
+
+#logo {
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+#logo:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.center {
+	text-align: center;
+}
+
+.jumbotron h1, h2{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.btn-xlarge{
+	background-color: #122e59;
+}
+
+.btn-xlarge:hover{
+	color: #fff;
+	text-decoration: none;
+}
