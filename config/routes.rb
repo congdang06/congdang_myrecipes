@@ -22,6 +22,6 @@ Rails.application.routes.draw do
   # get '/recipes/:id', to: 'recipes#show', as: 'recipe'
   # post '/recipes', to: 'recipes#create'
 
-
+  resources :ingredients, except: [:destroy]
 
 end
